@@ -15,8 +15,9 @@ or (depending on your system):
 ---
 
 ## Example Output
-
----
+Welcome to the Study Time Tracker!
+How many hours did you study today? 2
+You are on track to study approximately 14.0 hours this week.
 
 ## Project Files
 
@@ -26,7 +27,7 @@ or (depending on your system):
 ---
 
 ## Author
-
+David Asuquo
 Created for the Python + GitHub workflow assignment.
 
 
