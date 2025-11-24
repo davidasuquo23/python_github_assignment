@@ -5,15 +5,17 @@
 # weekly study hours, and displays the result.
 # Includes basic error handling.
 # -------------------------------------------
-
+# Welcome message
 print("Welcome to my Python program!")
+# Ask the user for input
 hours = input("How many hours did you study today? ")
-
+# Try converting input to a number
 try:
     hours = float(hours)
 except ValueError:
     print("Please enter a valid number.")
     exit()
-
+# Perform a calculation: estimate weekly hours
 weekly_hours = hours * 7
+# Display result
 print(f"You are on track to study {weekly_hours} hours this week.")
